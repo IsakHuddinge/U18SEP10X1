@@ -35,7 +35,7 @@ namespace F
                     }
                 }
                 //generate random number between 1-21
-                //funny that we generate it afterwards
+                //funny that we generate it after the user guesses it
                 Random rand = new Random();
                 int random_number = rand.Next(21) + 1;
 

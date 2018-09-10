@@ -6,7 +6,8 @@ namespace B
     {
         static void Main(string[] args)
         {
-            string prompt = ">";    //prompt for when user input is required
+            //prompt for when user input is required
+            string prompt = ">";    
             string user_input;
             //wait until non-empty string is passed
             while (true)

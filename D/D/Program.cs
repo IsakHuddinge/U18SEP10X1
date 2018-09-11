@@ -35,7 +35,7 @@ namespace D
 
             var character_list = new List<Unique_character> { };
             
-            foreach (char character in user_input)
+            foreach (char character in user_input.ToLower())
             {
                 if(character_list.Exists(x => x.Character == character))
                 {

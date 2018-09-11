@@ -43,7 +43,7 @@ namespace D
             //add all words to list. if word exist's it adds 1 to counter
             foreach (Match word in regex_matches)
             {
-                string word_string = word.ToString();
+                string word_string = word.ToString().ToLower();
                 if (word_list.Exists(x => x.Word == word_string))
                 {
                     var index = word_list.FindIndex(x => x.Word == word_string);

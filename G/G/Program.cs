@@ -29,34 +29,36 @@ namespace G
                     break;
                 }
             }
-            
-            Dictionary<char, string> translate_leet = new Dictionary<char, string>();
-            translate_leet.Add('a', "4");
-            translate_leet.Add('b', "8");
-            translate_leet.Add('c', "<");
-            translate_leet.Add('d', "|>");
-            translate_leet.Add('e', "3");
-            translate_leet.Add('f', "|=");
-            translate_leet.Add('g', "6");
-            translate_leet.Add('h', "]-[");
-            translate_leet.Add('i', "|");
-            translate_leet.Add('j', "_|");
-            translate_leet.Add('k', "|<");
-            translate_leet.Add('l', "1");
-            translate_leet.Add('m', "/\\\\");
-            translate_leet.Add('n', "|\\|");
-            translate_leet.Add('o', "0");
-            translate_leet.Add('p', "|2");
-            translate_leet.Add('q', "(.)");
-            translate_leet.Add('r', "|z");
-            translate_leet.Add('s', "5");
-            translate_leet.Add('t', "7");
-            translate_leet.Add('u', "|_|");
-            translate_leet.Add('v', "|/");
-            translate_leet.Add('w', "//");
-            translate_leet.Add('x', "><");
-            translate_leet.Add('y', "'/");
-            translate_leet.Add('z', "(\\)");
+
+            Dictionary<char, string> translate_leet = new Dictionary<char, string>
+            {
+                { 'a', "4" },
+                { 'b', "8" },
+                { 'c', "<" },
+                { 'd', "|>" },
+                { 'e', "3" },
+                { 'f', "|=" },
+                { 'g', "6" },
+                { 'h', "]-[" },
+                { 'i', "|" },
+                { 'j', "_|" },
+                { 'k', "|<" },
+                { 'l', "1" },
+                { 'm', "/\\\\" },
+                { 'n', "|\\|" },
+                { 'o', "0" },
+                { 'p', "|2" },
+                { 'q', "(.)" },
+                { 'r', "|z" },
+                { 's', "5" },
+                { 't', "7" },
+                { 'u', "|_|" },
+                { 'v', "|/" },
+                { 'w', "//" },
+                { 'x', "><" },
+                { 'y', "'/" },
+                { 'z', "(\\)" }
+            };
 
             string leet = "";
             foreach (char character in user_input)

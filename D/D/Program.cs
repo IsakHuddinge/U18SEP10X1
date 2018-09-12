@@ -37,6 +37,11 @@ namespace D
             
             foreach (char character in user_input.ToLower())
             {
+                
+                if (!Char.IsLetter(character))
+                {
+                    continue;
+                }
                 if(character_list.Exists(x => x.Character == character))
                 {
                     var index = character_list.FindIndex(x=> x.Character == character);
